@@ -4,7 +4,7 @@
   <header id="header" class="bg-gray-700">
     <nav class="container mx-auto flex justify-start items-center py-5 px-4">
       <!-- App Name -->
-      <a class="text-white font-bold uppercase text-2xl mr-4" href="#">Music</a>
+      <a class="text-white font-bold uppercase text-2xl mr-4" href="#">Clefy Cloud</a>
 
       <div class="flex flex-grow items-center">
         <!-- Primary Navigation -->
@@ -25,11 +25,11 @@
 </template>
 
 <script>
-import { mapStores } from "pinia";
-import useModalStore from "@/stores/modal";
+import { mapStores } from 'pinia';
+import useModalStore from '@/stores/modal';
 
 export default {
-  name: "AppHeader",
+  name: 'AppHeader',
   computed: {
     ...mapStores(useModalStore),
   },
